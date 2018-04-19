@@ -47,6 +47,7 @@ class Fitem extends Component {
         // 初始状态
         this.state = {};
         this.fitemTouch = this.fitemTouch.bind(this);
+
       }
 
       render() {
@@ -84,7 +85,7 @@ const FitemStyle = StyleSheet.create({
         flex: 1,
     },
     fitem_image: {
-        textAlign: 'center',
+        // textAlign: 'center',
         backgroundColor: '#ffff11',
     },
     fitem_text: {

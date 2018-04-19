@@ -24,13 +24,13 @@ export default class TopScrollView extends Component {
         this.state = {
             currentIndex: 0,
             scrollList: [
-                <View style={[TopStyleSheet.cont_view1,
+                <View key="top0" style={[TopStyleSheet.cont_view1,
                      {width: CommObject.ScreenWidth, height: this.props.frame.height}]}/>,
 
-                <View style={[TopStyleSheet.cont_view2,
+                <View key="top1" style={[TopStyleSheet.cont_view2,
                       {width: CommObject.ScreenWidth, height: this.props.frame.height}]}/>,
 
-                <View style={[TopStyleSheet.cont_view3,
+                <View key="top2" style={[TopStyleSheet.cont_view3,
                       {width: CommObject.ScreenWidth, height: this.props.frame.height}]}/>
             ]
         };

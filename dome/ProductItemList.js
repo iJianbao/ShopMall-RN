@@ -57,6 +57,9 @@ export default class ProductItemList extends Component {
                               onViewableItemsChanged={(info)=>{
                                   console.log(info);
                               }}
+                              getItemLayout={(data, index) => (
+                                  {length: 200, offset: 200 * index, index}
+                              )}
                      />
                 </View>
 

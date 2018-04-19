@@ -41,7 +41,7 @@ export default class HeartProductItem extends Component {
               <TouchableHighlight onPress={this.productItemToucAction}
                                   underlayColor={CommObject.underlayColor}>
                   <View style={[HeartProductItemStyle.heartProductItem_view1, frame]}>
-                      <Image style={[HeartProductItemStyle.heartProductItem_image, imageSize]}/>
+                      <View style={[HeartProductItemStyle.heartProductItem_image, imageSize]}/>
                       <View style={HeartProductItemStyle.heartProductItem_view3}>
                           <Text style={HeartProductItemStyle.heartProductItem_text1}>{this.props.titleAry.title1}</Text>
                           <Text style={HeartProductItemStyle.heartProductItem_text2}>{this.props.titleAry.title2}</Text>

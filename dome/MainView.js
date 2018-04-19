@@ -78,7 +78,9 @@ export default class MainView extends Component {
 
     //主界面列表点击
     main_touch_list(key) {
-       console.log('main_touch_list', key);
+       // console.log('main_touch_list', key);
+        const { navigate } = this.props.navigation;
+        navigate('ProductInfoView', {user: '商品详情'})
     }
 }
 
