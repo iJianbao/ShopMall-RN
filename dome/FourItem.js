@@ -26,10 +26,10 @@ export default class FourItem extends Component {
       render () {
           let size = {width: this.props.frame.width/4, height: this.props.frame.height};
           let textAry = ["诚品推荐", "分类", "购物车", '我的'];
-          let itemList = [<Fitem frame={size} title={textAry[0]}/>,
-              <Fitem frame={size} title={textAry[1]}/>,
-              <Fitem frame={size} title={textAry[2]}/>,
-              <Fitem frame={size} title={textAry[3]}/>];
+          let itemList = [<Fitem key={'li'+global.reactid++} frame={size} title={textAry[0]}/>,
+              <Fitem key={'li'+global.reactid++} frame={size} title={textAry[1]}/>,
+              <Fitem key={'li'+global.reactid++} frame={size} title={textAry[2]}/>,
+              <Fitem key={'li'+global.reactid++} frame={size} title={textAry[3]}/>];
           //取位置
           let frame = {marginLeft: this.props.frame.x, marginTop: this.props.frame.y, width: this.props.frame.width, height: this.props.frame.height};
           return (

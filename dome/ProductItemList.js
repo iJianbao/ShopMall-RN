@@ -26,16 +26,16 @@ export default class ProductItemList extends Component {
         super(props);
         // 初始状态
         this.state = {
-            soureData: [{topLeft: '1', topRight: '', cont: '1', title: '密码防撬1', price: '$65.00元', sonNum: '8234', productKey: '1'},
-                {topLeft: '', topRight: '1', cont: '2', title: '密码防撬2', price: '$85.00元', sonNum: '8234', productKey: '2'},
-                {topLeft: '1', topRight: '', cont: '1', title: '密码防撬3', price: '$25.00元', sonNum: '8234', productKey: '3'},
-                {topLeft: '', topRight: '2', cont: '1', title: '密码防撬4', price: '$15.00元', sonNum: '8234', productKey: '4'},
-                {topLeft: '', topRight: '', cont: '1', title: '密码防撬5', price: '$35.00元', sonNum: '8234', productKey: '5'},
-                {topLeft: '1', topRight: '', cont: '', title: '密码防撬6', price: '$75.00元', sonNum: '8234', productKey: '6'},
-                {topLeft: '', topRight: '1', cont: '', title: '密码防撬7', price: '$55.00元', sonNum: '8234', productKey: '7'},
-                {topLeft: '2', topRight: '2', cont: '', title: '密码防撬8', price: '$125.00元', sonNum: '8234', productKey: '8'},
-                {topLeft: '', topRight: '', cont: '', title: '密码防撬9', price: '$115.00元', sonNum: '8234', productKey: '9'},
-                {topLeft: '1', topRight: '', cont: '', title: '密码防撬11', price: '$1225.00元', sonNum: '8234', productKey: '10'}]
+            soureData: [{key: 'li'+global.reactid++, topLeft: '1', topRight: '', cont: '1', title: '密码防撬1', price: '$65.00元', sonNum: '8234', productKey: '1'},
+                {key: 'li'+global.reactid++, topLeft: '', topRight: '1', cont: '2', title: '密码防撬2', price: '$85.00元', sonNum: '8234', productKey: '2'},
+                {key: 'li'+global.reactid++, topLeft: '1', topRight: '', cont: '1', title: '密码防撬3', price: '$25.00元', sonNum: '8234', productKey: '3'},
+                {key: 'li'+global.reactid++, topLeft: '', topRight: '2', cont: '1', title: '密码防撬4', price: '$15.00元', sonNum: '8234', productKey: '4'},
+                {key: 'li'+global.reactid++, topLeft: '', topRight: '', cont: '1', title: '密码防撬5', price: '$35.00元', sonNum: '8234', productKey: '5'},
+                {key: 'li'+global.reactid++, topLeft: '1', topRight: '', cont: '', title: '密码防撬6', price: '$75.00元', sonNum: '8234', productKey: '6'},
+                {key: 'li'+global.reactid++, topLeft: '', topRight: '1', cont: '', title: '密码防撬7', price: '$55.00元', sonNum: '8234', productKey: '7'},
+                {key: 'li'+global.reactid++, topLeft: '2', topRight: '2', cont: '', title: '密码防撬8', price: '$125.00元', sonNum: '8234', productKey: '8'},
+                {key: 'li'+global.reactid++, topLeft: '', topRight: '', cont: '', title: '密码防撬9', price: '$115.00元', sonNum: '8234', productKey: '9'},
+                {key: 'li'+global.reactid++, topLeft: '1', topRight: '', cont: '', title: '密码防撬11', price: '$1225.00元', sonNum: '8234', productKey: '10'}]
         };
 
         // this.renderItemView = this.renderItemView.bind(this);

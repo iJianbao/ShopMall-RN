@@ -23,12 +23,12 @@ export default class HeartProductListView extends Component {
         super(props);
         // 初始状态
         this.state = {
-            soureData: [{title1: '【C型手柄反向伞】', title2: '反向收伞/双层设计/多色选择', title3: '原价59元', title4: '30', title5: '29', key: '1'},
-                {title1: '【C型手柄反向伞】', title2: '反向收伞/双层设计/多色选择', title3: '原价59元', title4: '39', title5: '29', key: '2'},
-                {title1: '【C型手柄反向伞】', title2: '反向收伞/双层设计/多色选择', title3: '原价59元', title4: '30', title5: '29', key: '3'},
-                {title1: '【C型手柄反向伞】', title2: '反向收伞/双层设计/多色选择', title3: '原价59元', title4: '30', title5: '29', key: '4'},
-                {title1: '【C型手柄反向伞】', title2: '反向收伞/双层设计/多色选择', title3: '原价59元', title4: '30', title5: '29', key: '5'},
-                {title1: '【C型手柄反向伞】', title2: '反向收伞/双层设计/多色选择', title3: '原价59元', title4: '30', title5: '29', key: '6'}]
+            soureData: [{ key: 'li'+global.reactid++, title1: '【C型手柄反向伞】', title2: '反向收伞/双层设计/多色选择', title3: '原价59元', title4: '30', title5: '29', key: '1'},
+                { key: 'li'+global.reactid++, title1: '【C型手柄反向伞】', title2: '反向收伞/双层设计/多色选择', title3: '原价59元', title4: '39', title5: '29', key: '2'},
+                { key: 'li'+global.reactid++, title1: '【C型手柄反向伞】', title2: '反向收伞/双层设计/多色选择', title3: '原价59元', title4: '30', title5: '29', key: '3'},
+                { key: 'li'+global.reactid++, title1: '【C型手柄反向伞】', title2: '反向收伞/双层设计/多色选择', title3: '原价59元', title4: '30', title5: '29', key: '4'},
+                { key: 'li'+global.reactid++, title1: '【C型手柄反向伞】', title2: '反向收伞/双层设计/多色选择', title3: '原价59元', title4: '30', title5: '29', key: '5'},
+                { key: 'li'+global.reactid++, title1: '【C型手柄反向伞】', title2: '反向收伞/双层设计/多色选择', title3: '原价59元', title4: '30', title5: '29', key: '6'}]
         };
       }
 

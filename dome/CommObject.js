@@ -16,3 +16,5 @@ module.exports.IsIos = IsIos;
 
 let underlayColor = '#c1c1c1';
 module.exports.underlayColor = underlayColor;
+
+global.reactid = 1;

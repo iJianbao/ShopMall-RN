@@ -48,7 +48,7 @@ export default class ProductChoice extends Component {
       choiceText() {
           const doList = this.props.productChoice_ary.map((obj, index)=>{
               return(
-                  <Text style={[ProductChoiceStyle.productChoice_text1,
+                  <Text key={'li'+global.reactid++} style={[ProductChoiceStyle.productChoice_text1,
                       {color: this.state.choiceNum===index?'#ffffff':'#000000'},
                       {backgroundColor: this.state.choiceNum===index?'#ff0000':'#ffffff'}]}
                         onPress={()=>this.choiceBtnAction(index)}>{obj}</Text>

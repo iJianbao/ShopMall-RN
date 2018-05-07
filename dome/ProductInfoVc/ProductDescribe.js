@@ -52,7 +52,7 @@ export default class ProductDescribe extends Component {
           const imageView = this.props.productDescribe_imageAry.map((obj, index)=> {
               // let str = '../imgs/rn'+(index+1)+'.jpg';
               return(
-                  <Image source={{uri: 'https://img3.doubanio.com/view/movie_poster_cover/mpst/public/p2263582212.jpg'}}/>
+                  <Image  key={'li'+global.reactid++} source={{uri: 'https://img3.doubanio.com/view/movie_poster_cover/mpst/public/p2263582212.jpg'}}/>
               )
           });
           return imageView;
